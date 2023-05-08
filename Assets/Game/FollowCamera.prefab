@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1149627827402822958
+--- !u!1 &4842869737473700977
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1149627827402822944}
-  - component: {fileID: 1149627827402822959}
+  - component: {fileID: 8250257657403595851}
+  - component: {fileID: 2397209877050606087}
   m_Layer: 0
   m_Name: FollowCamera
   m_TagString: Untagged
@@ -17,36 +17,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1149627827402822944
+--- !u!4 &8250257657403595851
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149627827402822958}
+  m_GameObject: {fileID: 4842869737473700977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.783043, y: 0.027468607, z: -4.350651}
+  m_LocalPosition: {x: 6.658085, y: 8.242195, z: -0.036454666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1149627828885442572}
+  - {fileID: 570119393342644899}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1149627827402822959
+--- !u!114 &2397209877050606087
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149627827402822958}
+  m_GameObject: {fileID: 4842869737473700977}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 371bdbfa30bbe8840bb22e09530b473a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
---- !u!1 &1149627828885442569
+--- !u!1 &5152956276224734867
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,9 +54,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1149627828885442572}
-  - component: {fileID: 1149627828885442571}
-  - component: {fileID: 1149627828885442570}
+  - component: {fileID: 570119393342644899}
+  - component: {fileID: 2287319194984962042}
+  - component: {fileID: 2694005504345723726}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -64,28 +64,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1149627828885442572
+--- !u!4 &570119393342644899
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149627828885442569}
-  m_LocalRotation: {x: -0.27870587, y: 0.64981866, z: -0.27891904, w: -0.64981765}
-  m_LocalPosition: {x: 7.4055715, y: 9.320404, z: -0.0816361}
+  m_GameObject: {fileID: 5152956276224734867}
+  m_LocalRotation: {x: 0.27684096, y: -0.6485175, z: 0.2749417, w: 0.6535987}
+  m_LocalPosition: {x: 2.1868534, y: 2.195468, z: 0.014496315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1149627827402822944}
+  m_Father: {fileID: 8250257657403595851}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &1149627828885442571
+--- !u!20 &2287319194984962042
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149627828885442569}
+  m_GameObject: {fileID: 5152956276224734867}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -122,11 +122,11 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1149627828885442570
+--- !u!81 &2694005504345723726
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1149627828885442569}
+  m_GameObject: {fileID: 5152956276224734867}
   m_Enabled: 1
